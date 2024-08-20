@@ -53,7 +53,8 @@ func main() {
 		fmt.Println("t1==t2")
 	}
 
-	// dimensions need not be same in 2d slices
+	// Slices can be composed into multi-dimensional data structures.
+	//The length of the inner slices can vary, unlike with multi-dimensional arrays.
 	var twoD = [][]int{{1, 2}, {1, 2, 3}}
 	fmt.Println(twoD)
 }
