@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+In Go, an array is a numbered sequence of elements of a specific length.
+ In typical Go code, slices are much more common; arrays are useful in some special scenarios.
+*/
 func main() {
 
 	// go stores zeroed values by default if we create empty array
@@ -24,6 +28,14 @@ func main() {
 	//to declare array in single line
 	arr := [4]int{1, 2, 3, 4}
 	fmt.Println(arr)
+
+	//compiler counts the number of elements in array
+	b := [...]int{1, 2, 3, 4, 5}
+	fmt.Println("dcl:", b)
+
+	//If you specify the index with :, the elements in between will be zeroed.
+	c := [...]int{100, 3: 400, 500}
+	fmt.Println("idx:", c)
 
 	//2-d array
 	arr2d := [2][2]int{{3, 4}, {5, 6}}
