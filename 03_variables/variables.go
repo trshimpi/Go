@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// name:= "golang" => can't declare like this out of function def other ways are possible
+
 func main() {
 
 	// once declared you have to use variables in golang
