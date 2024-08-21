@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
+//function to add two int and returns int
 func addition(a int, b int) int {
 	return a + b
 }
 
+// if all params are of same type then you can mention data type at the end of last param
 func add3(a, b, c int) int {
 	return a + b + c
 }
