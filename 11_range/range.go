@@ -7,6 +7,8 @@ func main() {
 	nums := []int{1, 2, 3, 4}
 
 	sum := 0
+
+	// first param is index , if you don't want to use it , use _ instead
 	for _, num := range nums {
 		sum += num
 	}
