@@ -15,6 +15,7 @@ func closureFun() func() {
 	}
 }
 
+// function currying concept
 func add(a int) func(b int) func(c int) int {
 	return func(b int) func(c int) int {
 		return func(c int) int {
