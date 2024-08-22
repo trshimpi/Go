@@ -34,6 +34,7 @@ func main() {
 
 	//range on strings iterates over Unicode code points.
 	//The first value is the starting byte index of the rune and the second the rune itself
+	// runes are like chars in other languages
 	for i, c := range "Golang" {
 		fmt.Println("i:", i, "c", c)
 	}
