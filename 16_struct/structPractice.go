@@ -47,8 +47,8 @@ func main() {
 	}
 
 	// fmt.Println(myOrder)
-	// fmt.Println(myOrder.getPrice())
-	// myOrder.changePrice(100.00)
+	fmt.Println(myOrder.getPrice())
+	myOrder.changePrice(100.00)
 	// fmt.Println(myOrder)
 
 	// fmt.Println(myOrder2)
