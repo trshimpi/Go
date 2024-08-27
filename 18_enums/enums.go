@@ -3,13 +3,20 @@ package main
 import "fmt"
 
 // enumerated type
-type OrderStatus string
+type OrderStatus int
+
+// const (
+// 	Received   OrderStatus = "received"
+// 	Confirmed              = "confirmed"
+// 	Prepared               = "prepared"
+// 	Delievered             = "delievered"
+// )
 
 const (
-	Received   OrderStatus = "received"
-	Confirmed              = "confirmed"
-	Prepared               = "prepared"
-	Delievered             = "delievered"
+	Received OrderStatus = iota
+	Confirmed
+	Prepared
+	Delievered
 )
 
 func changeOrderStatus(status OrderStatus) {
