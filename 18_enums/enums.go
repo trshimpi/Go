@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 // enumerated type
-type OrderStatus int
+type OrderStatus string
 
 const (
-	Received OrderStatus = iota
-	Confirmed
-	Prepared
-	Delievered
+	Received   OrderStatus = "received"
+	Confirmed              = "confirmed"
+	Prepared               = "prepared"
+	Delievered             = "delievered"
 )
 
 func changeOrderStatus(status OrderStatus) {
@@ -17,5 +17,5 @@ func changeOrderStatus(status OrderStatus) {
 }
 
 func main() {
-	changeOrderStatus(Delievered)
+	changeOrderStatus(Confirmed)
 }
