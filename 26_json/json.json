@@ -1,0 +1,14 @@
+[
+   {
+      "first_name": "Walley",
+      "last_name": "White",
+      "hair_color": "White",
+      "has_dog": true
+   },
+   {
+      "first_name": "Jessie",
+      "last_name": "Pinkman",
+      "hair_color": "Black",
+      "has_dog": false
+   }
+]
